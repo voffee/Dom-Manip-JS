@@ -15,7 +15,8 @@ console.log(myListItem);
 
 for (i=0; i<=4; i++) {
     const myListItem2 = document.createElement('li');
-    myListItem2.textContent = ('Item: ' + i);
+    // myListItem2.textContent = ('Item: ' + i);
+    myListItem2.textContent = (`Item: ${i}`);
     console.log(myListItem2);
     myUnorderedList.insertAdjacentElement('beforeend',myListItem2);
 }
